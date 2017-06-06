@@ -9,7 +9,7 @@ user_title: Open Source Mike
 email: michael@humanfactors.io
 twitter_username: humanfactorsio
 github_username:  humanfactors
-profile_picture: http://www.humanfactors.io/user/pages/01.about/avatar.jpg
+profile_picture: assets/img/profilepic.jpg
 
 # Build settings
 markdown: kramdown
@@ -29,13 +29,13 @@ links:
   - title: home
     url: /
   - title: my posts
-    url: posts/
+    url: /posts/
   - title: tutorials
-    url: tutorials/
+    url: /tutorials/
   - title: tags
-    url: tags/
+    url: /tags/
   - title: about me
-    url: about/
+    url: /about/
 # projects in header index
 projects:
   - name: Interruptions in Air Traffic Control

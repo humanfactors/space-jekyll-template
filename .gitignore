@@ -1,4 +1,5 @@
 _site
 .sass-cache
 node_modules
-_draftss3_website.yml
+_drafts
+s3_website.yml

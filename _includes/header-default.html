@@ -6,11 +6,27 @@
         </div>
 
         <h1>
-            <span class="site-title">{{site.title}}<br><br><i>[Press Spacebar]</i></span>
-        </h1>
+            <span class="site-title">{{site.title}}</span>
 
-        <div class="icons-home">
-            <a aria-label="Send email" title="Send me a e-mail" href="mailto:{{site.email}}">
+            </h1>
+            <div class = "floatingText" id="app"></div>
+            <script src="assets/js/typewriter.js"></script>
+            <script>
+        var app = document.getElementById('app');
+        var typewriter = new Typewriter(app, {
+            loop: true
+        });
+        typewriter.typeString('Press Spacebar')
+            .pauseFor(5000)
+            .deleteAll()
+            .typeString('This is how I code...')
+            .pauseFor(3000)
+            .deleteChars(12)
+            .start();
+            </script> 
+ 
+            <div class="icons-home">
+            <a aria-label="Send email" title="Send me a e-mail" href="mailto:join_michael-humanfactors-io">
                 <svg class="icon icon-email"><use xlink:href="#icon-email"></use></svg>
             </a>
 
