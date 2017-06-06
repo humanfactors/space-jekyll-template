@@ -1,17 +1,15 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
-description: "A blog about lorem ipsum ..."
-baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
-url: "http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+title: Michael
+description: "Press [Spacebar]"
+baseurl: '' # for test: remove string '/space-jekyll-templa' to ''
+url: "http://michael.humanfactors.io" 
 # User settings
-username: lorem ipsum
-user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
-twitter_username: loremipsum
-github_username:  loremipsum
-gplus_username:  loremipsum
-disqus_username: loremipsum
-profile_picture: https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png
+username: Michael Wilson
+user_title: Open Source Mike
+email: michael@humanfactors.io
+twitter_username: humanfactorsio
+github_username:  humanfactors
+profile_picture: http://www.humanfactors.io/user/pages/01.about/avatar.jpg
 
 # Build settings
 markdown: kramdown
@@ -31,20 +29,20 @@ links:
   - title: home
     url: /
   - title: my posts
-    url: /posts
-  - title: series
-    url: /series
+    url: posts/
+  - title: tutorials
+    url: tutorials/
   - title: tags
-    url: /tags
+    url: tags/
   - title: about me
-    url: /about
+    url: about/
 # projects in header index
 projects:
-  - name: asciilang
-    url: https://github.com/victorvoid/asciilang
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+  - name: Interruptions in Air Traffic Control
+    url: http://journals.sagepub.com/doi/abs/10.1177/1541931213601055
+  - name: Skanky Dotfiles
+    url: https://github.com/humanfactors/skanky-config.git
+  - name: Learning Spacemacs
+    url: https://github.com/humanfactors/spacemacs 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
