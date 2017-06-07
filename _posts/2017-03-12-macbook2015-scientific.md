@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Macbook 2015 Review: Academic and Scientific Use"
+title:  "Macbook 2015 for Academics"
 image: ''
 date:   2016-06-15 00:06:27
 tags:
 - markdown
 description: 'How good is the old new Macbook for Scientists?'
+categories:
+- Science 
 ---
 
 My Bias

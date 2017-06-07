@@ -4,10 +4,19 @@ title: "About me"
 permalink: /about/index.html
 description: "Some description about Victor Igor..."
 ---
-
-<h2>My projects</h2>
-
 <div class="aboutme">
+<h2>About Me</h2>
+<p>
+	I'm a PhD candidate at the University of Western Australia in the Human Factors Laboratory. 
+	My research project investigates the cognitive mechanisms that underlie performance in safety-critical complex jobs, such as air traffic control,
+	 with a particular focus on interruption, workload, and prospective memory.
+	  I have a strong interest in reproducible research methods and statistics, 
+	  and recently I have been applying Bayesian methods and reproducible research practices to my own work.
+	  Currently, I am trying to focus my free time on GNU/Linux, "big data", and machine-learning.
+	  Feel free to get in contact with me or read more about my services.
+	</p>
+	<h2>My projects</h2>
+
 	<ul class="recent">
 		{% for project in site.projects %}
 	    	<li><a href="{{ project.url}}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>

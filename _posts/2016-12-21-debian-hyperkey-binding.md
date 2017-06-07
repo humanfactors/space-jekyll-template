@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Caps Lock as Hyper Key Modifier in Debian, MacOS and Windows"
+title: "Caps Lock as Hyper Key Modifier"
 image: ''
 date:   2016-12-21 00:06:31
 published: true
@@ -11,9 +11,9 @@ description: "A quick tutorial and how-to rebind caps lock key in Windows 10, Ma
 
 Binding Caps Lock to the ["Hyper Key"](https://en.wikipedia.org/wiki/Modifier_key) gives you an entire new pallete of shortcut commands. For instance, you could bind `Caps Lock + L` to ___?
 
-## Binding Hyper Key Modifer to Caps Lock in Debian
+## Hyper Key Modifer to Caps Lock in Debian
 
-_(Note: Experienced Debian users can jump straight down to the script below and run it an appropriate time after the xserver launches)._ Linux was surprisingly the hardest of the three operating systems to rebind Caps Lock to something even remotely useful. I am running the following configuration:
+_(Note: Experienced Debian users can jump straight down to the script below and run it an appropriate time after the xserver launches)._ Linux was surprisingly the hardest of the three operating systems to rebind Caps Lock to something even remotely useful. At time of writing, I am running the following configuration:
 
 ~~~
 
@@ -74,7 +74,7 @@ Now all Debian and Cinnamon UIs will register our "Caps Hyper" as a proper key f
 
 Word of caution here though: hyperkey may not work as intended in all applications, for instance [Atom text editor](https://atom.io).
 
-## Binding Hyper Key in Windows
+## Hyper Key in Windows
 
 Windows will require the use of a program called [AutoHotKey](https://autohotkey.com/). Whilst binding to a _true_ hyper key in windows is hard, we can bind `Ctrl + Alt + Shift` together as modifiers on Caps Lock (how many commands do you know that use all three?)
 
@@ -92,7 +92,7 @@ return
 return
 {% endhighlight %}
 
-## Binding Hyper Key in MacOS Sierra
+## Hyper Key in MacOS Sierra
 
 This is a bit of a qwerky solution and also uses the `CMD+ Ctrl + Alt + Shift ` - but it works. It requires two steps:
 
