@@ -3,6 +3,7 @@ layout: post
 title: "A Plain Text Note-taking System"
 categories:
  - Workflows
+published: false
 ---
 
 I've often been told that as a PhD student, "95% of your job is knowing how to frame the problem."
@@ -21,14 +22,13 @@ But why plain text over the abundance of other feature rich editors? Well, let's
 
 ## The Start: Markdown Notes
 
-  - Have a single managed note system with minimal system requirements for writing or searching.
-  - Sync a note system across any operating system.
-  - Maintain this note system.
+My aim was to have:
 
+  - A single managed note system with minimal system requirements for writing or searching.
+  - Able to sync the note system across any operating system.
+  - Easily maintain this note system (i.e. automated).
 
-Originally this post started as just a few shell scripts tied together with a couple of comments. But as time has passed, my workflow has changes substantially and I've started learning new systems. However, I still think this solution is useful.
-
-Similarly, no software solution is going to be useful to you
+My first solution was Nvatom.
 
 ## Nvatom (Nvalt)
 
