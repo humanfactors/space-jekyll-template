@@ -15,6 +15,8 @@ profile_picture: assets/img/profilepic.jpg
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
+pygments_options:
+  tabsize: 2
 
 
 # html minify
