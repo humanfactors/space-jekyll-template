@@ -1276,7 +1276,7 @@ body {
 .post-content .tags,
 .post-content iframe {
     max-width: 50rem;
-    padding: 0 1.25rem;
+    padding: 1.25rem;
     margin: 0 auto 1.875rem;
     font-family: 'Libre Franklin', sans-serif;
     font-style: normal;
@@ -1322,7 +1322,7 @@ body {
 
 .post-content iframe {
     margin-top: 1.875rem;
-    width: 100%
+    width: 100%;
 }
 
 .post-content #twitter-widget-0 {
